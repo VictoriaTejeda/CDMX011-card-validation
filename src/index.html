@@ -2,12 +2,25 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="description" content="Aqui vas a poder validar si se trata de un número de tarjeta 
+    bancaria valido"/>
+    <meta name="robots" content="index,follow"/>
     <title>Tarjeta de crédito válida</title>
+    <meta  name="viewport" content="width=device-width, user-scalable=no, 
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <h1>Bienvenido </h1>
+      <p> Es momento de validar tu tarjeta Bancaria</p>
+      <input type="text" id="CardNum" onkeypress="return validaNum(event)" required minlength="16" maxlength="16"/> 
+      <button type="button" id="validar" onclick="validaBtn()">Validar</button>
+      <p id="mask"> </p>
+       
+
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
