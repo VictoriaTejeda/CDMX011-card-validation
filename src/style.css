@@ -6,3 +6,17 @@ input:valid {
 input:invalid {
     border-color: #DD2C00;
 }
+.cc_input{
+    float:left;
+}
+.cc_icon{
+    float:left;
+}
+.cc_control{
+    width: 100%;
+}
+
+.cc_control_input{
+    width: 100%;
+
+}

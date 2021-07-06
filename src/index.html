@@ -15,11 +15,24 @@
     <main>
       <h1>Bienvenido </h1>
       <p> Es momento de validar tu tarjeta Bancaria</p>
-      <input type="text" id="CardNum" onkeypress="return validaNum(event)" required minlength="16" maxlength="16"/> 
-      <button type="button" id="validar" onclick="validaBtn()">Validar</button>
+      
       <p id="mask"> </p>
-       
-
+      <div id="icono" class="icono_class">
+        <h1 id="h1-valid"></h1>
+      </div>
+      <div class="cc_container">
+        <div class="cc_control_input"></div>
+        <div class="cc_input">
+          <input type="text" id="CardNum" onkeypress="return validaNum(event)" value= "5545236584336995" required minlength="16" maxlength="16"/> 
+        </div>
+        <div class="cc_icon">
+          <img id= "img-valid" src="./images/check_true.png" height="30" width="30" alt="icono">
+        </div>
+        <div class="cc_control">
+          <button type="button" id="validar" onclick="validaBtn()">Validar</button>
+          <button type="button" id="Reset" onclick="reset()">Limpiar</button>
+        </div>
+      </div>
     </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
