@@ -31,32 +31,31 @@ const validator = {
 
       //console.log(result);
       let sumTotal = result.reduce((a, b) => a + b);
-     console.log(sumTotal);
-     console.log(sumTotal % 10 == 0);
+      console.log(sumTotal);
+      console.log(sumTotal % 10 == 0);
       return sumTotal % 10 == 0;
     } else {
       alert("ingresa los 16 digitos de tu tarjeta");
     }
   },
-  maskify(ccNumber){
-    let mask ="";
-    let cont= 0;
-    for(let i= ccNumber.length; i >= 0; i--) {
-      
-      if( cont<=4){
+  maskify(ccNumber) {
+    let mask = "";
+    let cont = 0;
+    for (let i = ccNumber.length; i >= 0; i--) {
+      if (cont <= 4) {
         //console.log(ccNumber.charAt(i));
         mask += ccNumber.charAt(i);
-      }else{
-        
+      } else {
         console.log("#");
         mask += "#";
       }
       cont++;
     }
     return reverse(mask);
-    
-  
-  } 
+  },
+ getIssuer (ccNumber) {
+if ( )
+ }
 };
 
 function splitToDigit(n) {
