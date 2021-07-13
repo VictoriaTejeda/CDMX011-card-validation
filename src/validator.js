@@ -30,7 +30,7 @@ const validator = {
 
     //console.log(result);
     let sumTotal = result.reduce((a, b) => a + b);
-    //console.log(sumTotal);
+    console.log(sumTotal);
     //console.log(sumTotal % 10 == 0);
     return sumTotal % 10 == 0;
   },
@@ -42,12 +42,26 @@ const validator = {
         //console.log(ccNumber.charAt(i));
         mask += ccNumber.charAt(i);
       } else {
-        console.log("#");
+        //console.log("#");
         mask += "#";
       }
       cont++;
     }
     return reverse(mask);
+  },
+  getIssuer(ccNumber) {
+    if (ccNumber.startsWith("4")) {
+      return "visa";
+    } else if (ccNumber.startsWith("51")) {
+      return "masterCard";
+    } else if (ccNumber.startsWith("55")) {
+      return "masterCard";
+    } else if (ccNumber.startsWith("37")) {
+      return "ae";
+    } else if (ccNumber.startsWith("34")) {
+      return "ae";
+    }
+    return "unknown";
   },
 };
 

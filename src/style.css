@@ -161,3 +161,9 @@ footer p {
   text-align: center;
   color: #dbd3d3;
 }
+
+.unknown{
+  width: 50px;
+  height: 40px;
+  padding: 10px;
+}

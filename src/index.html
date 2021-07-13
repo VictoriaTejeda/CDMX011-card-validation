@@ -18,65 +18,83 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="nav_header">
-      <div class= "nav_conteiner logo_nav" >
-      <img src="./images/logopet.png" alt="logo" />
-      <nav class="navigation">
-        <ul>
-          <li><a href="">Carrito</a></li>
-          <li><a href="">Información</a></li>
-          <li><a href="">Envios</a></li>
-          <li><a href="">Pago</a></li>
-        </ul>
-      </nav>
+      <div class="nav_conteiner logo_nav">
+        <img src="./images/logopet.png" alt="logo" />
+        <nav class="navigation">
+          <ul>
+            <li><a href="">Carrito</a></li>
+            <li><a href="">Información</a></li>
+            <li><a href="">Envios</a></li>
+            <li><a href="">Pago</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main>
-      <div class= "all_main">
+      <div class="all_main">
         <h2>Hola! Valida tu tarjeta para continuar con tu compra.</h2>
-        <h3 id="validation"> </h3>
-      <section id="conteiner">
-        <div class= "header">
-          <h3 class="title">Banmexico</h3>
-        </div>
-        <div class= "image_chip">
-          <img src="./images/chip.png" alt="chip" />
-        </div>
-        <main>
-          <input
-            type="text"
-            id="CardNum"
-            onkeypress="return validaNum(event)"
-            required
-            minlength="16"
-            maxlength="16"
-            placeholder="16 digitos de tu tarjeta"
-          />
-          <div id="credit_score" hidden>
-            <i class="material-icons">credit_score</i>
+        <h3 id="validation"></h3>
+        <section id="conteiner">
+          <div class="header">
+            <h3 class="title">Banmexico</h3>
           </div>
-          <div id="warning" hidden>
-            <i class="material-icons">credit_card_off</i>
+          <div class="image_chip">
+            <img src="./images/chip.png" alt="chip" />
           </div>
-        </main>
-        <footer></footer>
-      </section>
-      <div>
-        <button type="button" class="button" onclick="reset()">Limpiar</button>
-      </div>
+          <main>
+            <input
+              type="text"
+              id="cardNum"
+              onkeypress="return validaNum(event)"
+              required
+              minlength="16"
+              maxlength="16"
+              placeholder="16 digitos de tu tarjeta"
+            />
+            <div id="credit_score" hidden>
+              <i class="material-icons">credit_score</i>
+            </div>
+            <div id="warning" hidden>
+              <i class="material-icons">credit_card_off</i>
+            </div>
+          </main>
+          <div>
+            <img
+              id="issuer-logo"
+              src="./images/unknown.png"
+              class="unknown"
+              alt="logo credit card issuer"
+            />
+          </div>
+        </section>
+        <div>
+          <button type="button" class="button" onclick="reset()">
+            Limpiar
+          </button>
+        </div>
       </div>
     </main>
-    <footer class = "footer">
-    <div class="footer">
-      <p>Car_validation 2021 diseñado por @VicyaTM</p>
-    </div>
+    <footer class="footer">
+      <div class="footer">
+        <p>Car_validation 2021 diseñado por @VicyaTM</p>
+      </div>
     </footer>
     <script src="index.js" type="module"></script>
   </body>
