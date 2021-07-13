@@ -6,7 +6,7 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Investigación UX:](#3-investigacion-ux)
 * [4. Feedback recibido indicando las mejoras a realizar.](#4-feedback-recibido)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [5. Plan de acción](#5-Plan-de-accion)
 
 
 ***
@@ -35,11 +35,13 @@ En este proyecto es de  aplicación web que le permite a un usuario validar el n
 ### Foto del primer prototipo en papel 
 ![prototipo de Baja fidelidad](https://github.com/VictoriaTejeda/CDMX011-card-validation/blob/master/src/images/prototipo1.jpg)
 
-* El squat sugirio colocat un boton de reset.
-* Sugirieron que añadiera un texto donde apareciera es valida o invalida ya que yo solo lo tenia con iconos y no era muy entendible para el usuario.
+* El squat sugirio colocar un botón de reset.
+* Sugirieron que añadiera un texto donde apareciera es valida o invalida ya que yo solo lo tenia con iconos y no era muy entendible para el usuario. Asi como tambien probar que la pagina tuviera un html responsive, e implementar el uso de una paleta de colores.
 
  ### Foto del prototipo final.
-![prototipo de Baja fidelidad](/images/prototipo2.jpg)
+![prototipo de Baja fidelidad](https://github.com/VictoriaTejeda/CDMX011-card-validation/blob/master/src/images/prototipo2.jpg)
+
+
 ## 5. Plan de acción
 
 ### Objetivos priorizados en este proyecto :
