@@ -33,7 +33,7 @@ En este proyecto es de  aplicación web que le permite a un usuario validar el n
 ## 4. Feedback recibido
 
 ### Foto del primer prototipo en papel 
-![prototipo de Baja fidelidad](/images/prototipo1.jpg)
+![prototipo de Baja fidelidad](https://github.com/VictoriaTejeda/CDMX011-card-validation/blob/master/src/images/prototipo1.jpg)
 
 * El squat sugirio colocat un boton de reset.
 * Sugirieron que añadiera un texto donde apareciera es valida o invalida ya que yo solo lo tenia con iconos y no era muy entendible para el usuario.
@@ -44,15 +44,15 @@ En este proyecto es de  aplicación web que le permite a un usuario validar el n
 
 ### Objetivos priorizados en este proyecto :
 
-*Entregar un mínimo viable
-*Dividir el proyecto en micro proyectos funcionales.
-*Crear una interfaz simple con un text input y un botón de validar, al final lo cambió por el evento onkeypress.
-*Darle funcionalidad al input.
-*Validar que el texto ingresado sean números y la longitud del texto.
-*Escribir una función para el Algoritmo de Luhn, esto se emplea para validar el número de una tarjeta. 
-*Ocultar los números proporcionados y solo mostrar los últimos cuatro dígitos.
-*Devolver valida o invalida 
-*Completar las pruebas unitarias.
-*Trabajar en el diseño con html y css para lograr el diseño del prototipo final.
+* Entregar un mínimo viable
+* Dividir el proyecto en micro proyectos funcionales.
+* Crear una interfaz simple con un text input y un botón de validar, al final lo cambió por el evento onkeypress.
+* Darle funcionalidad al input.
+* Validar que el texto ingresado sean números y la longitud del texto.
+* Escribir una función para el Algoritmo de Luhn, esto se emplea para validar el número de una tarjeta. 
+* Ocultar los números proporcionados y solo mostrar los últimos cuatro dígitos.
+* Devolver valida o invalida 
+* Completar las pruebas unitarias.
+* Trabajar en el diseño con html y css para lograr el diseño del prototipo final.
 * Implemente hacker edition.
 
