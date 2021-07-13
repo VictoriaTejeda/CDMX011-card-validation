@@ -17,18 +17,15 @@ Con esta página podrás validar si el número de tarjeta bancaria proporcionado
 
 ## 2. Resumen del proyecto
 
-En este proyecto es de  aplicación web que le permite a un usuario validar el número de una tarjeta de crédito y si pertenece a Visa, Mastercard, o AmericanExpress.
+En este proyecto es de  aplicación web que le permite a un usuario validar el número de una tarjeta de crédito y si pertenece a Visa, Mastercard, o American Express.
 
-
-## Quiénes son los principales usuarios de producto.
-* Son los clientes de una tienda de mascotas online.
-* El problema que resuelve esta aplicación es que le da certeza al provedor de la tienda uq ele estan ingresando un numero valido.
 
 ## 3. Investigación UX:
 
 ## Quiénes son los principales usuarios de producto.
-* Son los clientes de una tienda de mascotas online.
-* El problema que resuelve esta aplicación es que le da certeza al provedor de la tienda que estan ingresando un numero valido y si su tajeta es Visa, Mastercard o American Express.
+
+* Los clientes de una tienda de mascotas online que requieren realiazar su pago a través del uso de una  tarjeta.
+* El problema que resuelve esta aplicación, es dar la certeza al provedor de la tienda  que el usuario esta ingresando un número valido de tarjeta, asi como el provedor del banco ya que solo acepta tarjetas Visa, Mastercard y American Express. 
 
 ## 4. Feedback recibido
 
